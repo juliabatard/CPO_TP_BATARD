@@ -28,6 +28,12 @@ uneBrasserie) {
  brasserie = uneBrasserie;
  ouverte = false;
 }
-}
+
+public boolean Decapsuler () {
+        if (ouverte == false) {
+            boolean Decapsuler = true;}
+        else {
+            boolean Decapsuler = true;}
+    }
 
 
