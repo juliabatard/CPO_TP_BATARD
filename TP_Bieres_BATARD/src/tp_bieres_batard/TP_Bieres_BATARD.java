@@ -42,6 +42,11 @@ premiereBiere.lireEtiquette();
 secondeBiere.lireEtiquette();
 troisiemeBiere.lireEtiquette();
 
-    }
-    
-}
+boolean Decapsuler = uneBiere.Decapsuler();
+System.out.println(uneBiere.ouverte);
+System.out.println(uneBiere) ;
+
+BouteilleBiere stella = new BouteilleBiere ("Stella", (float) 5.2,"monoprix") ;
+System.out.println(stella);    }
+}  
+   
