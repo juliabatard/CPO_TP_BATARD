@@ -39,15 +39,21 @@ public double CelciusVersFarenheit (double tempcelcius){
 }
 
 public double FarenheitVersKelvin (double tempfarenheit){
-    double tempkelvin = (tempcelcius + 32)*1.8;
+    double tempkelvin = (tempfarenheit - 32) / 1.8 + 273.14;;
     nbConversions +=1;
-    return tempfarenheit;
+    return tempkelvin;
+}
 
-public double 
+public double KelvinVersFarenheit ( double tempkelvin ){
+    double tempfarenheit = (tempkelvin - 273.14) * 1.8 + 32;
+    nbConversions +=1;
+        return tempfarenheit;
+}
 @Override
-public String toString (String nbConversions) {
+public String toString () {
  return "nb de conversions"+ nbConversions;
 }
+
 }
 
 
